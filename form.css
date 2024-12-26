@@ -1,0 +1,67 @@
+
+body{
+margin: 0;
+padding: 0;
+
+}
+.container{
+
+background: aqua;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+
+
+}
+.contact-form{
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px;
+
+}
+.contact-form h2{
+
+text-align: center;
+color: rgb(93, 102, 99);
+font-style: italic;
+
+
+
+}
+.form-group{
+
+margin-bottom: 20px;
+
+}
+label:{
+
+display: block;
+margin-bottom: 8px;
+
+}
+input,textarea{
+
+width: 100%;
+border: 1px solid #ccc;
+
+
+}
+
+button{
+
+background-color: burlywood;
+padding: 10px 15px;
+border: none;
+border-radius: 6px;
+color: white;
+
+
+}
+button:hover{
+
+    background-color: green;
+    transition-duration: 0.09;
+}
